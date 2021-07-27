@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/JsonQuery/bin/Debug/net5.0/JsonQuery.dll",
+            "args": [ "sample.js", "lists[].{ listId:id, name:name, closed:closed, pos:pos}", "-v"],
+            "cwd": "${workspaceFolder}/JsonQuery",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

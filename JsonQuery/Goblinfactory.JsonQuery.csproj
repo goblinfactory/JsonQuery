@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackAsTool>true</PackAsTool>
+  <ToolCommandName>jsq</ToolCommandName>
+  <PackageOutputPath>./nupkg</PackageOutputPath>
+  <Copyright>(C) Goblinfactory Limited 2021</Copyright>
+    <PackageTags>json, jmespath, query</PackageTags>
+    <PackageProjectUrl>https://github.com/goblinfactory/JsonQuery</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/goblinfactory/JsonQuery</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <Title>Goblinfactory.JsonQuery</Title>
+    <RepositoryTitle>Goblinfactory.JsonQuery</RepositoryTitle>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="Goblinfactory.PrettyJson" Version="0.3.0" />
+    <PackageReference Include="JmesPath.Net" Version="1.0.153" />
+  </ItemGroup>
+</Project>
