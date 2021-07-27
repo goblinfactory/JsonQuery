@@ -4,10 +4,20 @@ Cross platform dotnet tool for querying json files and first super hacky support
 
 ## install
 
+```shell
+dotnet tool install --global --add-source ./nupkg goblinfactory.jsonquery
+```
+
 ## usage
 
-> jsq {filename} {jmespath query expression} [outputfile]
+```shell
+jsq {filename} {jmespath query expression} [outputfile]
+```
 
 example
 
-> jsq sample.js "lists[].{sort:pos, inactive:closed }" lists.json
+```shell
+jsq sample.js "lists[].name"
+```
+
+![screenshot.png](screenshot.png)

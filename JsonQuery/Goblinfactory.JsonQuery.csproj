@@ -1,25 +1,36 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Version>0.2.1.0</Version>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <PackAsTool>true</PackAsTool>
-  <ToolCommandName>jsq</ToolCommandName>
-  <PackageOutputPath>./nupkg</PackageOutputPath>
-  <Copyright>(C) Goblinfactory Limited 2021</Copyright>
+    <ToolCommandName>jsq</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <Owners>Goblinfactory Ltd</Owners>
+    <Company>Goblinfactory Ltd</Company>
+    <Description>Cross platform dotnet tool for querying json files and first super hacky support for js files with embedded json. First language supported in JmesPath.</Description>
+    <Summary>Cross platform dotnet tool for querying json files and first super hacky support for js files with embedded json. First language supported in JmesPath.</Summary>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>(C) Goblinfactory Limited 2021</Copyright>
+    <Authors>Alan Hemmings</Authors>
     <PackageTags>json, jmespath, query</PackageTags>
     <PackageProjectUrl>https://github.com/goblinfactory/JsonQuery</PackageProjectUrl>
     <RepositoryUrl>https://github.com/goblinfactory/JsonQuery</RepositoryUrl>
-    <RepositoryType>GIT</RepositoryType>
+    <RepositoryType>git</RepositoryType>
     <Title>Goblinfactory.JsonQuery</Title>
     <RepositoryTitle>Goblinfactory.JsonQuery</RepositoryTitle>
-    <AssemblyVersion>0.1.0.0</AssemblyVersion>
-    <FileVersion>0.1.0.0</FileVersion>
+    <AssemblyVersion>0.2.1.0</AssemblyVersion>
+    <FileVersion>0.2.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.8.0" />
     <PackageReference Include="Goblinfactory.PrettyJson" Version="0.3.0" />
     <PackageReference Include="JmesPath.Net" Version="1.0.153" />
+    <None Include="..\LICENSE">
+     <Pack>True</Pack>
+    <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
