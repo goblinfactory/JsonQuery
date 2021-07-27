@@ -11,7 +11,7 @@ dotnet tool install --global --add-source ./nupkg goblinfactory.jsonquery
 ## usage
 
 ```shell
-jsq {filename} {jmespath query expression} [outputfile]
+jsq {filename} {jmespath query expression}
 ```
 
 example
@@ -21,3 +21,7 @@ jsq sample.js "lists[].name"
 ```
 
 ![screenshot.png](screenshot.png)
+
+## backlog (todo)
+
+-   Currently does not create (write to the output file) I'll add that shortly.
