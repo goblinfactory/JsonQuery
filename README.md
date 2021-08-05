@@ -1,6 +1,6 @@
 # Goblinfactory.JsonQuery
 
-Cross platform dotnet tool for querying json files and first super hacky support for js files with embedded json. First language supported in JmesPath.
+Cross platform dotnet tool for querying json files and first super hacky support for js files with embedded json. First language supported in JmesPath. Screenshot below is the command running in a VSCode terminal on mac OSX.
 
 ## install
 
